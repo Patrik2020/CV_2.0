@@ -1,0 +1,156 @@
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #333;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --header-footer-background: #333;
+    --header-footer-text: #fff;
+    --link-color: #4CAF50;
+    --button-background: #4CAF50;
+    --button-text: #fff;
+    --button-hover-background: #45a049;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+header {
+    background: var(--header-footer-background);
+    color: var(--header-footer-text);
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+main {
+    padding-bottom: 4rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    background: var(--background-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+li h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+}
+
+footer {
+    background: var(--header-footer-background);
+    color: var(--header-footer-text);
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0 0 1rem;
+}
+
+footer a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background: var(--button-background);
+    color: var(--button-text);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 0.5rem;
+}
+
+button:hover {
+    background: var(--button-hover-background);
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    li h3 {
+        font-size: 1.2rem;
+    }
+
+    .header-content {
+        flex-direction: column;
+    }
+
+    #profile-picture {
+        width: 100px;
+        height: 100px;
+    }
+}

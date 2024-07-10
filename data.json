@@ -1,0 +1,37 @@
+{
+    "name": "Kovács Patrik",
+    "profession": "Programozó",
+    "about": "31 éves vagyok és Budapesten élek a családommal. Hosszú villamosvezetéses évek után döntöttem el, hogy szeretném magamat más területen is kipróbálni. Első sorban front-end fejlesztőként, de későbbiekben akár C++ programozóként is szívesen dolgoznék. Eleinte akár gyakornokként is szívesen dolgoznék és igen rugalmas is lennék e-tekintetben fizetés szempontjából. ",
+    "experience": [
+        {
+            "company": "General Electric",
+            "position": "Betanított munkás/ Gépkezelő",
+            "period": "2012 - 2015",
+            "tasks": "2012 június végétől dolgoztam itt addig, amíg nem nyertem felvételt a BKV-hoz. Betanított munkásként vettek fel, ám a csoportvezetőm hamar felismerte, hogy több van bennem, mint hogy gyártósori összeszerelést végeztessen velem. Ezért én mindig szóbeli jelentés útján segédkeztem a csoportvezetőmnek, hogy a termelés hogyan lehetne hatékonyabb. Emellett adminisztratív feladatokat is elláttam."
+        },
+        {
+            "company": "Jelenlegi munkahely",
+            "position": "Villamosvezető",
+            "period": "2015 - ",
+            "tasks": "2015 szeptemberétől dolgozom a budapesti közlekedési vállalatnál. Villamosokat vezetek a kresznek, illetve az F.1. – F.2. utasításainak megfelelően. Úgynevezett munkamódszer átadóként az új belépők és régi dolgozók vonal ismereti és típusismereti oktatásával is foglalkozom munkám során. Forgalmi munkalapokat, oktatási és vizsgalapok adminisztrálása is a feladatom. Ezeken kívül pedig az utasok udvarias tájékoztatása, kiszolgálása is a napi teendőim közé tartozik."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Pestszentlőrinc-Pestszentimrei Felnőttek Általános Iskolája és Gimnáziuma",
+            "field": "Számítástechnika",
+            "period": "2021 - 2023"
+        }
+    ],
+    "skills": [
+        "HTML & CSS",
+        "JavaScript",
+        "W3 Wschool",
+        "C++ (folyamatban)",
+        "Github",
+        "Ms Excel",
+        "Ms Word",
+        "Ms PowerPoint"
+    ],
+    "contact": "kovacs.patrik20gmail.com"
+}
