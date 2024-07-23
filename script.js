@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelector('header h1').textContent = data.name;
             document.querySelector('header p').textContent = data.profession;
             document.querySelector('#about p').textContent = data.about;
+            document.querySelector('#farewell p').textContent = data.farewell;
 
             const experienceSection = document.querySelector('#experience ul');
             experienceSection.innerHTML = '';
@@ -12,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 const li = document.createElement('li');
                 li.innerHTML = `
                     <h3>${item.company}</h3>
-                    <p>Beosztás: ${item.position}</p>
+                    <p>Pozíció: ${item.position}</p>
                     <p>Időszak: ${item.period}</p>
                     <p>Feladatok: ${item.tasks}</p>
                 `;
@@ -25,8 +26,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 const li = document.createElement('li');
                 li.innerHTML = `
                     <h3>${item.institution}</h3>
-                    <p>Szakterület: ${item.field}</p>
-                    <p>Időszak: ${item.period}</p>
+                    <p> ${item.field}</p>
+                    <p> ${item.period}</p>
                 `;
                 educationSection.appendChild(li);
             });

@@ -1,7 +1,8 @@
 {
     "name": "Kovács Patrik",
     "profession": "Programozó",
-    "about": "31 éves vagyok és Budapesten élek a családommal. Hosszú villamosvezetéses évek után döntöttem el, hogy szeretném magamat más területen is kipróbálni. Első sorban front-end fejlesztőként, de későbbiekben akár C++ programozóként is szívesen dolgoznék. Eleinte akár gyakornokként is szívesen dolgoznék és igen rugalmas is lennék e-tekintetben fizetés szempontjából. ",
+    "about": "31 éves vagyok és Budapesten élek a családommal. Hosszú villamosvezetéses évek után döntöttem el, hogy szeretném magamat más területen is kipróbálni. Első sorban front-end fejlesztőként, de későbbiekben akár C++ programozóként is szívesen dolgoznék. Eleinte akár gyakornoki pozícióban is elhelyezkednék, akár részmunkaidőben akár teljes munkaidőben. Mivel ezen a területen konkrét munkatapasztalatom még nincs, ezért fizetés szempontjából is rugalmasabb lennék. És végül, hogy ne írjak túl sokat és a magamról való beszéd utáni megszokott, illedelmes mondat se maradjon le...  Remélem olyannyira elnyertem bizalmát, hogy hamarosan beszélgethetünk egy állásinterjú keretében!",
+    "farewell":"További kellemes szép napot - estét - reggelt kívánok!",
     "experience": [
         {
             "company": "General Electric",
@@ -19,7 +20,7 @@
     "education": [
         {
             "institution": "Pestszentlőrinc-Pestszentimrei Felnőttek Általános Iskolája és Gimnáziuma",
-            "field": "Számítástechnika",
+            "field": "Érettségi bizonyítvány",
             "period": "2021 - 2023"
         }
     ],
@@ -33,5 +34,5 @@
         "Ms Word",
         "Ms PowerPoint"
     ],
-    "contact": "kovacs.patrik20gmail.com"
+    "contact": "patrik.kovacs.cv@gmail.com" 
 }
